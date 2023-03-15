@@ -1,4 +1,7 @@
 
+[![CircleCI](img/1.png)](https://app.circleci.com/pipelines/github/danielmuthama/Operationalize-a-Machine-Learning-Microservice-API-/9/workflows/a7358e90-73ca-49e8-ad11-891846ce077c/jobs/8)
+
+[![CircleCI](img/2.png)](https://app.circleci.com/pipelines/github/danielmuthama/Operationalize-a-Machine-Learning-Microservice-API-/6/workflows/a8680176-f01f-4178-af36-eb46961af0fa/jobs/5)
 ## Project Overview
 
 This project showcases the skills acquired in the Udacity Cloud DevOps Nanodegree program to operationalize a Machine Learning Microservice API.
