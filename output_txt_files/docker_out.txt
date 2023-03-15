@@ -1,10 +1,21 @@
-[2019-12-14 07:42:47,352] INFO in app: JSON payload: 
+<paste log output from Docker prediction, here>
+[2023-03-14 23:41:50,432] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2019-12-14 07:42:47,364] INFO in app: Inference payload DataFrame: 
+[2022-03-14 23:41:50,457] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2019-12-14 07:42:47,371] INFO in app: Scaling Payload: 
+[2023-03-14 23:41:50,472] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2019-12-14 07:42:47,374] INFO in app: Output prediction: [20.35373177134412]
-172.17.0.1 - - [14/Dec/2019 07:42:47] "POST /predict HTTP/1.1" 200 -
+172.15.0.1 - - [14/Mar/2023 23:41:50] "POST /predict HTTP/1.1" 200 -
+
+
+(venv) dsm@dsm-HP-ProBook-6470b:~/-Operationalize-a-Machine-Learning-Microservice-API$ ./make_prediction.sh
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

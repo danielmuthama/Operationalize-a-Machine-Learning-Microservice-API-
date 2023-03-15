@@ -5,15 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
-dockerpath="clairelee7522/mlapi"
+dockerpath=danielmuthama23/flaskapp
 
 # Step 2:  
 # Authenticate & tag
+docker login
+docker tag flaskapp $dockerpath
 echo "Docker ID and Image: $dockerpath"
-docker login &&\
-    docker image tag mlapi $dockerpath
 
 # Step 3:
 # Push image to a docker repository
-docker image push $dockerpath
+docker push $dockerpath

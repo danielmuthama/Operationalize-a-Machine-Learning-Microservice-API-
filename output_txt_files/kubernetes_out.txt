@@ -1,3 +1,14 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+./run_kubernetes.sh
+NAME                READY   STATUS    RESTARTS   AGE
+flaskapp            1/1     Running   0          10m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+./make_prediction.sh
 Port: 8000
 {
   "prediction": [
