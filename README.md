@@ -1,6 +1,4 @@
 
-[![CircleCI](https://circleci.com/gh/NewthingAde/Machine-Learning-Microservice-Kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/NewthingAde/Machine-Learning-Microservice-Kubernetes/tree/main)
-
 ## Project Overview
 
 This project showcases the skills acquired in the Udacity Cloud DevOps Nanodegree program to operationalize a Machine Learning Microservice API.
